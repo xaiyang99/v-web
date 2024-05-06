@@ -1,0 +1,10 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .files-cs-1,.files-cs-2,.files-cs-3{fill:#17766b;}.files-cs-1{opacity:0.2;}.files-cs-2{opacity:1;}</style>
+    </defs>
+    <circle class="files-cs-1" cx="24" cy="24" r="24" />
+    <path class="files-cs-2"
+        d="M29.12,12.05H13.68A1.63,1.63,0,0,0,12,13.68V34.32A1.64,1.64,0,0,0,13.68,36H34.32A1.65,1.65,0,0,0,36,34.32V18.89ZM22.77,31.49H16.68a1,1,0,1,1,0-2.07h6.09a1,1,0,0,1,0,2.07Zm3-4.43H16.68a1,1,0,1,1,0-2.07h9.09a1,1,0,0,1,0,2.07Zm1.28-4.43H16.68a1,1,0,1,1,0-2.06H27.05a1,1,0,0,1,0,2.06Z" />
+    <polygon class="files-cs-3" points="29.12 12.04 35.96 18.89 29.12 18.89 29.12 12.04" />
+</svg>

@@ -1,0 +1,8 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <defs>
+        <style>.video-cs-1,.video-cs-2{fill:#17766b;}.video-cs-1{opacity:0.2;}</style>
+    </defs>
+    <circle class="video-cs-1" cx="24" cy="24" r="24" />
+    <path class="video-cs-2"
+        d="M34.47,12H13.54a1.49,1.49,0,0,0-1.49,1.49V34.46A1.48,1.48,0,0,0,13.54,36H34.47A1.49,1.49,0,0,0,36,34.46V13.53A1.49,1.49,0,0,0,34.47,12ZM19.53,29.15V18.84L28.47,24Z" />
+</svg>

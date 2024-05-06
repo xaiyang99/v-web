@@ -1,0 +1,33 @@
+
+.rs-picker-toggle:hover,
+.rs-picker-toggle:focus,
+.rs-picker-toggle-active {
+  border-color: #17766B;
+}
+
+.rs-btn-link {
+  color: grey !important;
+}
+.rs-btn-link:hover {
+  color: #17766B !important;
+}
+
+
+.rs-btn-primary.rs-btn-disabled,
+.rs-btn-primary:disabled {
+  background-color: #17766B !important;
+}
+
+.rs-btn-primary,
+.rs-btn-primary {
+  background-color: #17766B !important;
+}
+.rs-picker-toggle .rs-picker-toggle-placeholder{
+    color: #17766B;
+}
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value, .rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value{
+     color: #17766B;
+}
+.rs-picker-toggle .rs-picker-toggle-placeholder{
+    color: #17766B;
+}

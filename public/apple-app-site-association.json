@@ -1,0 +1,11 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+      {
+        "appID": "XGWJTGPMBP.com.vshare.app.client",
+        "paths": ["*"]
+      }
+    ]
+  }
+}

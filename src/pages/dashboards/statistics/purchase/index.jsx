@@ -1,0 +1,55 @@
+import { Grid } from "@mui/material";
+import BreadcrumbNavigate from "../../../../components/BreadcrumbNavigate";
+import * as Icon from "../../../../icons/icons";
+import * as MUI from "../../css/statistics";
+import HeadActionFormate from "../components/HeadActionFormate";
+import FirstPurshase from "../sections/FirstPurshase";
+import RebillsAccount from "../sections/RebillsAccount";
+import RefundsAccount from "../sections/RefundsAccount";
+import TotalPurchase from "../sections/TotalPurchase";
+import { useTranslation } from "react-i18next";
+function index() {
+  const { t } = useTranslation();
+  return (
+    <div>
+      <MUI.StatisticsContainer>
+        <BreadcrumbNavigate
+          separatorIcon={<Icon.ForeSlash />}
+          path={["Statistics", "Purchase Statistics"]}
+          readablePath={[t("_statistic"), t("_purchase_statistic_title")]}
+        />
+        <MUI.StatisticsPaper>
+          <Grid container spacing={4}>
+            <Grid item xs={12} md={12} lg={12}>
+              <HeadActionFormate title={t("_purchase_statistic_title")} />
+            </Grid>
+          </Grid>
+        </MUI.StatisticsPaper>
+        <MUI.StatisticsPaper>
+          <Grid container spacing={4}>
+            <Grid item xs={12} md={6} lg={6}>
+              <FirstPurshase />
+            </Grid>
+            <Grid item xs={12} md={6} lg={6}>
+              <RebillsAccount />
+            </Grid>
+          </Grid>
+        </MUI.StatisticsPaper>
+        <Grid container spacing={4}>
+          <Grid item xs={12} lg={8}>
+            <MUI.StatisticsItem>
+              <TotalPurchase />
+            </MUI.StatisticsItem>
+          </Grid>
+          <Grid item xs={12} lg={4}>
+            <MUI.StatisticsItem>
+              <RefundsAccount />
+            </MUI.StatisticsItem>
+          </Grid>
+        </Grid>
+      </MUI.StatisticsContainer>
+    </div>
+  );
+}
+
+export default index;

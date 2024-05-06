@@ -1,0 +1,75 @@
+.appbar {
+  background: none !important;
+}
+
+.appbar-bg {
+  background: linear-gradient(
+    232.69deg,
+    #0f6c61 28.37%,
+    #0ac8b3 95.18%
+  ) !important;
+  z-index: 9999999;
+}
+
+.appbar .container {
+  padding: 0.5rem;
+}
+
+.appbar .container .menuList {
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-left: 15px;
+}
+
+.slide-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  /* height: 50px; */
+  float: left;
+  margin-right: 0.3em;
+  margin-top: 0px;
+}
+
+b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+}
+.slide-up-text {
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  -webkit-animation: move 8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 8s;
+}
+
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -45px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
+  0% {
+    top: 0px;
+  }
+}

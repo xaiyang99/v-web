@@ -1,0 +1,35 @@
+.customPicker {
+  width: 50% !important;
+  background-color: #fff !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.customPicker .flexbox-fix > div:not(.sketch-picker) {
+  display: none;
+}
+
+.react-color .rcp-swatch {
+  width: 36px;
+  height: 50%;
+  border-radius: 2px;
+}
+
+.react-color .rcp-saturation,
+.react-color .rcp-hue {
+  display: none;
+}
+
+.huePicker {
+  width: 20px !important;
+  height: 230px !important;
+  text-align: center;
+}
+
+.react-color > .flexbox-fit {
+  display: none !important;
+}
+
+.huePicker > div > div > div {
+  transform: none;
+}
